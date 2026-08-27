@@ -1,0 +1,10 @@
+<resources>
+    <style name="Theme.CampusPro" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <!-- 深色模式下：状态栏和导航栏使用浅色图标（白色），保证在深色背景上可见 -->
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

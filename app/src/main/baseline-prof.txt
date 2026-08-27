@@ -1,0 +1,22 @@
+# Baseline Profile for 闪电课表
+# Generated rules for critical user paths
+
+# App startup
+HSPLandroidx/compose/runtime/ComposerImpl;-><init>(Landroidx/compose/runtime/Composer;I)V
+HSPLandroidx/compose/runtime/CompositionImpl;-><init>(Landroidx/compose/runtime/Composer;Landroidx/compose/runtime/Recomposer;)V
+
+# Material3 TextField
+HSPLandroidx/compose/material3/OutlinedTextFieldKt;->OutlinedTextField(Ljava/lang/String;Lkotlin/jvm/functions/Function1;Landroidx/compose/ui/Modifier;ZZLandroidx/compose/ui/text/TextStyle;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;ZZLandroidx/compose/ui/text/input/VisualTransformation;Landroidx/compose/foundation/text/KeyboardOptions;Landroidx/compose/foundation/text/KeyboardActions;Landroidx/compose/foundation/interaction/MutableInteractionSource;ILandroidx/compose/ui/graphics/Shape;Landroidx/compose/material3/TextFieldColors;Landroidx/compose/runtime/Composer;III)V
+
+# Navigation
+HSPLandroidx/navigation/compose/NavHostKt;->NavHost(Landroidx/navigation/NavHostController;Ljava/lang/String;Landroidx/compose/ui/Modifier;Ljava/lang/String;Lkotlin/jvm/functions/Function1;Landroidx/compose/runtime/Composer;II)V
+
+# LazyColumn
+HSPLandroidx/compose/foundation/lazy/LazyDslKt;->LazyColumn(Landroidx/compose/foundation/layout/Arrangement$Vertical;Landroidx/compose/foundation/layout/Alignment$Horizontal;Landroidx/compose/foundation/layout/PaddingValues;Landroidx/compose/foundation/gestures/FlingBehavior;Lkotlin/jvm/functions/Function1;Landroidx/compose/runtime/Composer;II)V
+
+# JwxtSyncRepository.syncAll
+HSPLcom/shisan/campuspro/JwxtSyncRepository;->syncAll(ZLkotlin/coroutines/Continuation;)Ljava/lang/Object;
+
+# CampusApplication startup
+HSPLcom/shisan/campuspro/CampusApplication;-><init>()V
+HSPLcom/shisan/campuspro/MainActivity;->onCreate(Landroid/os/Bundle;)V

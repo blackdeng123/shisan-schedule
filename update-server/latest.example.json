@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "packageName": "com.shisan.campuspro",
+  "versionCode": 2,
+  "versionName": "1.0.1",
+  "apkUrl": "https://update.example.com/releases/campuspro-1.0.1.apk",
+  "apkSizeBytes": 12345678,
+  "sha256": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+  "publishedAt": "2026-07-10T08:00:00Z",
+  "releaseNotes": [
+    "修复已知问题",
+    "优化课表使用体验"
+  ]
+}

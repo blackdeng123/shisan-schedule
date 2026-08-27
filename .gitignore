@@ -1,0 +1,64 @@
+# Gradle / Android build outputs
+.gradle/
+.kotlin/
+build/
+**/build/
+
+# Android Studio / IntelliJ local state
+.idea/
+*.iml
+
+# Local machine configuration
+local.properties
+keystore.properties
+update.properties
+
+# 本地发版操作备忘（含服务器部署路径与密钥文件名引用，不入库）
+update-server/更新操作.md
+
+# Local environment variables and credentials
+.env
+.env.*
+!.env.example
+
+# Signing keys and packaged artifacts
+keys/
+*.jks
+*.keystore
+*.apk
+*.aab
+app/release/
+update-server/dist/
+update-server/coscli_output/
+
+# Agent/editor local state
+.agents/
+.qoder/
+.worktrees/
+.mimocode/
+.workbuddy/
+.scratch/
+.claude/settings.local.json
+
+# Local command output
+build_output.txt
+coscli_output/
+
+# External reference samples
+sample/
+docs/*
+!docs/project-development-map.html
+!docs/UPDATE_SERVICE_CONFIGURATION.md
+!docs/UPDATE_SERVICE_BEGINNER_GUIDE.md
+!docs/ANDROID_HOT_UPDATE_RESEARCH.md
+
+# 落地页目录已稳定，不再随代码库变更（独立部署维护）
+website/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+#Ai config
+.claude/
+.reasonix/

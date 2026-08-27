@@ -1,0 +1,5 @@
+.\update-server\publish-update.ps1 `
+  -VersionCode 104 `
+  -VersionName "1.1.0" `
+  -ReleaseNotes "修复了无法获取新课表的问题"，"优化了很多看不见的东西，尽情享受吧！" `
+  -DryRun

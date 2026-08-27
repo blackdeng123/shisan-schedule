@@ -1,0 +1,10 @@
+manifestUrl=https://release.example.com/releases/latest.json
+publicBaseUrl=https://release.example.com/releases
+# 发布脚本 scp 推送配置（正式发布使用）
+sshKeyPath=keys/update.pem
+sshHost=root@1.2.3.4
+# remoteUpdateDir 以服务器实际 webroot 为准（1Panel 默认 /opt/1panel/www/sites/<域名>/index 下）
+remoteUpdateDir=/opt/1panel/www/sites/update.example.com/index/releases
+# 落地页发布配置（website/publish-website.ps1 使用，推送 website/index.html）
+remoteWebsiteDir=/opt/1panel/www/sites/website.example.com/index
+debugManifestUrl=http://127.0.0.1:8080/update-server/dist/test/releases/latest.json
